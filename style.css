@@ -8,11 +8,16 @@ p {
 h1 {
   font-size: 45px;
 }
+h2 {
+  font-size: 40px;
+}
 .chocolate-color {
   color: #d2691e;
 }
-section {
+.flexible-container {
   display: flex;
+  margin-bottom: 150px;
+  padding-left: 30px;
 }
 .half-width {
   width: 50%;
@@ -27,10 +32,41 @@ section {
   background-image: linear-gradient(orange, tomato);
   padding: 10px 40px;
   color: blanchedalmond;
-
   border-radius: 5px;
 }
 .top-banner {
   background-image: url(Images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big {
+  background-image: url(Images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 10%;
+}
+.experience-area {
+  background-image: url(Images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.experience-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 10px;
+  border-radius: 5px;
+  box-shadow: 35px 35px 40px teal;
+}
+#web-dev-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#full-stack-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, rgb(20, 194, 78));
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
 }
