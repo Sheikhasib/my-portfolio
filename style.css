@@ -1,0 +1,18 @@
+p {
+  font-size: 20px;
+}
+h1 {
+  font-size: 45px;
+}
+.chocolate-color {
+  color: #d2691e;
+}
+section {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+}
+.half-width img {
+  width: 50%;
+}
